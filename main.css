@@ -1,0 +1,249 @@
+html,body {
+	width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.jumbotron {
+	background-image: url('./images/portrait.jpg');
+	width: 100%;
+	background-size: cover;
+	height: 100vh;
+	margin: 0 !important;
+	padding: 0;
+}
+
+.flex-container {
+	display:flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	float: right;
+	color: #f6f6f6;
+	width: 100%;
+}
+
+.flex-container > li {
+	margin: 13px;
+	list-style-type: none;
+	font-size: 15px;
+	cursor: pointer;
+	padding-top: 30px;
+	position: relative;
+	color: white;
+}
+
+.nav a {
+	text-decoration: none !important;
+	color: white;
+}
+
+#heading {
+	margin: 0;
+	color: white;
+}
+
+#heading a {
+	text-decoration: none !important;
+	cursor: default;
+	color: white;
+}
+
+#interests1 {
+	width: 100%;
+	padding-top: 15px;
+	margin: 0;
+	height: 600px;
+}
+
+#interests2 {
+	width: 100%;
+	padding: 0px;
+	margin: 0;
+	height: 500px;
+	background-color: #f6f6f6;
+}
+
+#interests3 {
+	width: 100%;
+	padding: 0px;
+	margin: 0;
+	height: 500px;
+}
+
+.interest_text1 {
+	position: absolute;
+	font-size: 16px;
+	width: 440px;
+	left: 24%;
+	top: 20px;
+	padding: 40px;
+	font-family: 'Muli', sans-serif;
+	line-height: 34px;
+	text-align: justify;
+}
+
+.interest_text > a {
+	text-decoration: none !important;
+}
+
+.interest_text2 {
+	position: absolute;
+	width: 410px;
+	font-size: 16px;
+	left: 35%;
+	top: 95px;
+	padding: 40px;
+	font-family: 'Muli', sans-serif;
+	line-height: 34px;
+	text-align: justify;
+}
+
+.interest_text3 {
+	position: absolute;
+	width: 400px;
+	font-size: 16px;
+	left: 24%;
+	top: 120px;
+	padding: 40px;
+	font-family: 'Muli', sans-serif;
+	line-height: 34px;
+	text-align: justify;
+}
+
+#interest_img1 {
+	position: absolute;
+	max-height: 400px;
+	width: auto;
+	left: -60px;
+	top: -10px;
+	border-radius: 15px;
+}
+
+#interest_img2 {
+	position: absolute;
+	max-height: 400px;
+	width: auto;
+	left: 170px;
+	top: 45px;
+	border-radius: 15px; 
+}
+
+#interest_img3 {
+	position: absolute;
+	max-height: 400px;
+	width: auto;
+	left: -10px;
+	top: 65px;
+}
+
+.Head1 {
+	color: #111; 
+	font-family: 'Helvetica Neue', sans-serif; 
+	font-weight: bold; 
+	letter-spacing: -1px; 
+	line-height: 1;
+	text-align: center;
+	font-size: 40px;
+}
+
+.Head2 {
+	color: #111; 
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 30px; 
+	font-weight: 300; 
+	line-height: 32px; 
+	text-align: center; 
+	padding-bottom: 50px;
+}
+
+
+#proj {
+	background-color: #f6f6f6;
+	background-size: cover;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	overflow-x: hidden;
+	width: 100%;
+}
+
+.project {
+	border-radius: 25px;
+	width: auto;
+	height: 500px;
+	padding-bottom: 40px;
+}
+
+#title {
+	font-family: 'Helvetica Neue', sans-serif; 
+	font-size: 25px;
+}
+
+#title_bottom {
+	padding-top: 20px;
+	padding-bottom: 28px;
+	font-size: 40px;
+	font-color: white;
+}
+
+#skills {
+	background-size: cover;
+	height: 1100px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width: 100%;
+	padding-bottom: 50px;
+}
+
+.img-circle1 {
+	position: absolute;
+	top: -20px;
+	left: 125px;
+    border-radius: 50%;
+	width: 220px;
+	height: 220px;
+}
+
+.img-circle2 {
+	position: absolute;
+	top: 190px;
+	left: 125px;
+    border-radius: 50%;
+	width: 220px;
+	height: 220px;
+}
+
+.img-top {
+
+}
+
+.img-bottom {
+	display: none;
+}
+
+.bottom {
+	padding-bottom: 40px;
+}
+
+#contact {
+	width: 100%;
+	background-color: #f6f6f6;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	height: 435px;
+}
+
+#footer {
+	padding-top: 30px;
+	background-color: #202020;
+	width: 100%;
+}
+
+#footer_text {
+	margin-bottom: 25px;
+}
+
+#footer_text a {
+	text-decoration: none;
+	color: #e5e5e5;
+}
