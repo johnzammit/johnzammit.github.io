@@ -1,2 +1,2 @@
 # johnzammit.github.io
-Personal website
+My personal website- - a foray into HTML, CSS and JavaScript/jQuery.
