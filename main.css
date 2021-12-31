@@ -6,7 +6,7 @@ html,body {
 }
 
 .jumbotron {
-	background-image: url('./images/portrait.jpg');
+	background-image: url('./images/john background.jpg');
 	width: 100%;
 	background-size: cover;
 	height: 100vh;
