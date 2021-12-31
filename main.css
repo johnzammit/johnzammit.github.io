@@ -40,13 +40,13 @@ html,body {
 
 #heading {
 	margin: 0;
-	color: white;
+	color: black;
 }
 
 #heading a {
 	text-decoration: none !important;
 	cursor: default;
-	color: white;
+	color: black;
 }
 
 #interests1 {
